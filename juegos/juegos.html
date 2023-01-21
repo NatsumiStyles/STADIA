@@ -5,17 +5,57 @@
     .card{
       margin: 20px 10px;
       border: none !important;
+      background-color: #eef1f6 !important
     }
     .btn-primary{
       background-color: rgb(43, 43, 43) !important;
       border: none !important;
     }
     
-h5.card-title{
+  h5.card-title{
   color: red;
-}
+  }
+
+  body{
+    background-color: #eef1f6 !important;
+  }
+
+  a[sp="linknav"]{
+            font-family: 'Roboto', sans-serif; 
+      
+            color: white !important;
+         
+        }
+
+                
+        h1[sp="titulo_principal"]{
+            font-family: 'Roboto', sans-serif; 
+            
+            color: white !important;
+         
+        }
+
+        a[tp="final"]{
+          color: rgb(31, 31, 31);
+          margin: 0px 10px;
+
+        }
+
+        img[tp="imgs"]{
+          display: inline-block; 
+          width: 12rem;
+          margin: 10px 5px;
+          border-radius: 6px;
+        }
+
+
+        a{
+            text-decoration: none !important;
+        }
     
-    </style>
+  </style>
+
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Juegos</title>
@@ -23,7 +63,42 @@ h5.card-title{
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-   <center> 
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../Contactanos/google-st-i5q.png" width="50"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+    
+        <div class="col-xl-11 col-lg-10 col-md-10 col-sm-8">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Stadia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../juegos/juegos.html">Juegos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../contactanos/index.html">Contáctanos</a>
+            </li>
+          </ul>
+        </div>
+    
+    
+        <div class="col">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" clase="hola" aria-current="page" href="#" style="background: linear-gradient(90deg,rgba(248,73,27,1) 0%,rgba(241,47,63,1) 50%,rgba(220,24,96,1) 100%); padding: 10px 15px; border-radius: 5px; color: white">Iniciar sesión</a>
+              </li>
+        
+          </div>
+        </div>
+      </div>
+    </nav>  
+   
+    <center> 
     <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; font-size: 36px;"> Omite el registro y juega directamente</p>
    <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color:  rgba(54, 53, 53, 0.808); font-size: 19px;"> Accede a estas pruebas de juegos antes de crear una cuenta de Stadia.</p>
   </center>
@@ -33,7 +108,7 @@ h5.card-title{
       <div class="card" style="width: 18rem;">
         <img src="https://lh3.googleusercontent.com/AmuF1b5ylXx_4v5HvJBcA7mbzokeMP6A1zuN9BdIGzLH5TBTu9ciccCHisyTu5hbRZ0rFjFoDqb3o1OrCZ0YuJWviJ6U73oytGi4147iI8Ip4n0UjTAG577ph8A=w300-h400-rw-no-v1-nu" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Worn game</h5><br><br>
+          <h5 class="card-title">Worm game</h5><br><br>
           <a href="../Worm Game/WormGame.html" class="btn btn-primary">Juega durante 180 min</a>
         </div>
       </div>
@@ -60,7 +135,7 @@ h5.card-title{
         <div class="card-body">
 
           <h5 class="card-title">Black Widow: Recharged</h5><br><br>
-          <a href="../inicio/index.html" class="btn btn-primary">Juega durante 180 min</a>
+          <a href="../index.html" class="btn btn-primary">Juega durante 180 min</a>
         </div>
       </div>
 </div>
@@ -102,6 +177,17 @@ h5.card-title{
   </div>
 </div>
 
+
+<div class="container" style="padding: 0px 0px 10px 0px;">
+  <div class="col">
+  <img src="/Contactanos/st.png" height="25px">
+  
+  <a href="#" tp="final">Privacidad</a><a href="#" tp="final">Términos</a> <a href="#" tp="final">Juegos</a> <a href="#" tp="final">Ayuda</a>
+  
+  </div>
+  
+  
+</div>
 
 
 

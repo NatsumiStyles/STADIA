@@ -66,3 +66,30 @@ body{
     opacity: .7;
     z-index: -1;
 }
+
+a[sp="linknav"]{
+    font-family: 'Roboto', sans-serif; 
+
+    color: white !important;
+ 
+}
+
+        
+h1[sp="titulo_principal"]{
+    font-family: 'Roboto', sans-serif; 
+    
+    color: white !important;
+ 
+}
+
+a[tp="final"]{
+  color: rgb(31, 31, 31);
+  margin: 0px 10px;
+
+}
+
+img[tp="imgs"]{
+  display: inline-block; 
+  width: 12rem;
+  margin: 10px 5px;
+  border-radius: 6px;}
