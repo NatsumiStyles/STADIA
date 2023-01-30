@@ -1,0 +1,64 @@
+p{
+    font-size: 16px;
+}
+
+span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #eef1f6;
+}
+
+.abajo{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-check-label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 14px;
+}
+
+a[sp="linknav"]{
+    font-family: 'Roboto', sans-serif; 
+
+    color: white !important;
+ 
+}
+
+        
+h1[sp="titulo_principal"]{
+    font-family: 'Roboto', sans-serif; 
+    
+    color: white !important;
+ 
+}
+
+a[tp="final"]{
+  color: rgb(31, 31, 31);
+  margin: 0px 10px;
+
+}
+
+img[tp="imgs"]{
+  display: inline-block; 
+  width: 12rem;
+  margin: 10px 5px;
+  border-radius: 6px;
+}
+
+a{
+    text-decoration: none;
+}
